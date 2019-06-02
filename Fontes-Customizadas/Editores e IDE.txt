@@ -1,0 +1,9 @@
+IDE
+
+IDE, ou Ambiente Integral de Desenvolvimento em tradução livre, é um software criado com a finalidade de facilitar a vida dos programadores.
+ Neste tipo de aplicação estão todas as funções necessárias para o desenvolvimento desde programas de computador a aplicativos mobile,
+ assim como alguns recursos que diminuem a ocorrência de erros nas linhas de código.
+
+Editores de codigo fonte
+
+Marcação de codigo fonte, navegar facilmente pelas pastas, seleção e pesquisa mais avançados, foco na escrita dos sites do sistema

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flex Box</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+			
+			#conteudo {
+				background: #dcdcdc;
+				height: 600px;
+				display: -webkit-box;
+				display:  -ms-flexbox;
+				display: flex;
+
+				/* 
+				 row - row- reverse - column -  column reverse
+				
+
+				flex-direction: row;*/
+
+
+				/* nowrap - wrap - wrap-reverse 
+				flex-wrap: nowrap;*/
+
+
+				/* flex-start - flex-end - center - space-between - space-around 
+				justify-content: space-around;*/
+
+
+				/* stretch - center - flex-start - flex-end - baseline 
+				align-items: baseline;*/
+
+			}
+
+			.item {
+				height: 100px;
+				/*width: 200px;*/
+				margin: 10px;
+				background: white;
+				border: 1px solid gray;
+				
+			}	
+
+
+			/* Formatando direto nos items 
+			.order1{
+				order: 1;
+			}
+			.order2{
+				order: 2;
+			}
+			.order3{
+				order: 3;
+			}
+			.order4{
+				order: 4;
+			}
+			*/
+
+
+			/* Define porporção dse espaço ocupado por um item 
+			.item1 {
+				flex-grow: 1;
+			}
+
+			.item2 {
+				flex-grow: 2;
+			}
+
+			.item3 {
+				flex-grow: 2;
+			}
+			*/
+
+			/* Define a capacidade de redução de tamanho do item 
+			
+
+			.item1{
+				flex-shrink: 10;
+			}
+			*/
+ 
+			/* Indica o tamanho inicial do flex item antes da distribuiçaão do espaço restante */
+
+			.item1{
+				flex-basis: 200px;
+			}
+
+
+		</style>
+
+	
+	</head>
+
+	<body>
+
+		<h1>FlexBox</h1>
+		<div id="conteudo">
+		<div class="item item1">01</div>
+		<div class="item">02</div>
+		<div class="item">03</div>
+		<div class="item">04</div>
+				
+	</div>
+
+	</body>
+</html>

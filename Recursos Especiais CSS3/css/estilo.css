@@ -1,0 +1,195 @@
+/* Transições */
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#caixa:hover {
+	width: 400px;
+	background: yellow;
+	-webkit-transition:;
+	-moz-transition:;
+	-o-transition:;
+	/*transition: width 3s, background 3s;*/
+	transition: all 3s;
+}
+
+
+
+
+
+
+
+
+
+/* Animações 
+
+@-webkit-keyframes animacao-caixa {
+	from {Estado inicial
+		background: red;
+	}
+
+	to { Estado final 
+		background: yellow;
+	}
+}
+
+@-moz-keyframes animacao-caixa {
+	from {Estado inicial 
+		background: red;
+	}
+
+	to { Estado final 
+		background: yellow;
+	}
+}
+
+@-o-keyframes animacao-caixa {
+	from {Estado inicial 
+		background: red;
+	}
+
+	to { Estado final 
+		background: yellow;
+	}
+}
+
+@keyframes animacao-caixa {
+	from {Estado inicial 
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+
+	to { Estado final 
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 100;
+	animation-direction: alternate;
+	
+	 Ou pode fazer assim 
+	animation:  animacao-caixa 5s 3s 5 alternate;
+}
+
+*/
+
+/* SOMBRAS 
+
+
+#caixa{
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: 5px 5px 2px  20px black;
+	 o 4º valor é o espalhamento da Sombra da sombra 
+
+
+}
+
+#caixa h1 {
+	color: white;
+	 O primeiro parametro irá mover horizontalmente, e o segundo verticalmente, o terceiro
+	valor é um borrado que vai ser aplicado, o box- shadow é uma sombra na div, ou na caixa 
+	text-shadow: 3px 3px #ccc; 
+
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+*/
+
+
+
+
+
+
+/* USADOS PARA FAZER DEGRADES ----------LINAR-GRADIENT----------
+
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: url("../img/camera.png");
+
+
+	
+	to está apontando para onde eu quero que ele vá, são os valores padrões, top, left, rhght etc....
+	background: linear-gradient(to bottom, red, green);
+
+	 Definir em gruas essa rotação 
+	background: linear-gradient(100deg, red, green); 
+
+	background: radial-gradient(red, green, yellow);
+
+}
+
+#caixa h1{
+	background: rgba(255, 255, 255, 0.8);	
+}
+
+	
+
+  BORDER-RADIUS E BOX-SIZE 
+
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+	border-radius: 10px; 
+
+	 Também pode ser feitos em cada um dos cantos 
+	 border-radius: 10px 50px 80px 100px;
+
+	 Também pode ser usado com 2 atribuições exp 
+
+	 -webkit-border-radius: 20px 90px;
+	 -moz-border-radius: 20px 90px;
+	 border-radius: 20px 90px;
+
+	
+}
+
+
+ #caixa2 {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+
+	border-radius: 10px; 
+
+	 Também pode ser feitos em cada um dos cantos 
+	 border-radius: 10px 50px 80px 100px;
+
+	 Também pode ser usado com 2 atribuições exp 
+
+	 -webkit-border-radius: 20px 90px;
+	 -moz-border-radius: 20px 90px;
+	 border-radius: 20px 90px;
+
+	
+}
+ */

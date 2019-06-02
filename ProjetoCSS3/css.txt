@@ -1,0 +1,440 @@
+Estilo em CSS
+
+modo Inline Style
+
+<body>
+		<h1>Estilo CSS (cascading Style sheets)</h1>
+
+		<p style=" color: red; ">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,	
+		</p>
+
+		<p style="color: green; ">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		</p>
+
+
+	</body>
+
+	-----------------------------------------------------------
+	modo CSS interno 
+
+	<head>
+		<title>Inline Style</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			p {
+				color: red;
+			}
+			h1{
+				color: blue;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<h1>Estilo CSS (cascading Style sheets)</h1>
+
+		<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,	
+		</p>
+
+		<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		</p>
+		
+
+
+	</body>
+
+</html>
+
+-----------------------------------------------------------
+
+id é um identificador, se formos comparar um onibus com um id, as poltronas serias os identificadores
+
+Classes e ID
+
+#cabecalho {
+				background: green;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="cabecalho">
+			<img src="imagens/fundo.png">
+
+			<ul>
+				<li>Home</li>
+				<li>Quem Somos</li>
+				<li>Contato</li>
+
+			</ul>
+
+		</div>
+
+		<div id="conteudo-Principal">
+			<div class="coluna">
+				Coluna 1
+			</div>
+
+			<div class="coluna">
+				Coluna 2
+			</div>
+
+			<div class="coluna">
+				Coluna 1
+			</div>
+
+		</div>
+
+
+
+		<h1>Estilo CSS (cascading Style sheets)</h1>
+
+		<p class="azul">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,	
+		</p>
+
+		<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+		</p>
+		
+
+
+	</body>
+
+	-----------------------------------------------------------------------
+
+	Div e Span 
+
+	<style type="text/css">
+			
+		#topo{
+			background: blue;
+		}
+
+		#conteudo{
+			background: red;
+		}
+
+		.produto{
+			background: gray;
+			padding: 10px;
+			margin: 10px
+		}
+
+		#rodape{
+			background: green;
+		}
+
+		#assinatura{
+			background: pink;
+		}
+
+		.azul{
+			color:  blue;
+		}
+
+		</style>
+
+
+	<body>
+		<div id="topo">
+			
+			<img src="imagens/amazon.png" width="200"
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contato</li>
+
+
+			</ul>
+
+		</div>
+
+		<div id="conteudo">
+
+
+			<div class="produto">
+				Produto 1				
+
+			</div>
+
+			<div class="produto">
+				Produto 2				
+
+			</div>
+
+			<div class="produto">
+				Produto 3				
+
+			</div>
+
+		</div>
+
+		<div id="rodape">
+			
+			Todos os <span class="azul">  Direitos </span>Reservados
+
+		</div>
+
+		------------------------------------------------------------
+
+		para comentar codigos css /* */
+
+
+		------------------------------------------------------------
+		Bordas 
+
+		<head>
+		<title>Bordas</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+		#conteudo{
+			border-color: red green yellow blue;
+			border-width: 15px 10px 5px 1px;
+			border-style: solid dotted dashed outset;
+
+		}
+
+		</style>
+
+	</head>
+
+	<body>
+		<div id="conteudo">
+			Bordas<br>
+			Bordas<br>
+			Bordas<br>
+
+		</div>
+
+	</body>
+
+		TIPOS DE BORDA
+		dotted - Define uma borda pontilhada
+	dashed - Define uma borda tracejada
+	solid - Define uma borda sólida
+	double - Define uma fronteira dupla
+	groove- Define uma borda com sulcos 3D. O efeito depende do valor da cor da borda
+	ridge- Define uma borda 3D sulcada. O efeito depende do valor da cor da borda
+	inset- Define uma borda inserida em 3D. O efeito depende do valor da cor da borda
+	outset- Define uma borda de partida 3D. O efeito depende do valor da cor da borda
+	none - não define fronteiras
+	hidden - Define uma borda oculta
+
+	------------------------------------------------------------
+
+	Cores e Fontes
+
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fontes & Cores </title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+		.formatacao{
+			color: #18A0C6;
+			font-size: 30px;
+			font-family: Georgia, serif
+		}
+
+
+		</style>
+
+	</head>
+
+	<body>
+		
+
+		<p class="formatacao">Conteudo</p>
+
+	</body>
+
+</html>
+
+Links para pegar as cores e fontes 
+
+https://www.w3schools.com/css/css_font.asp
+
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+https://html-color-codes.info/Codigos-de-Cores-HTML/
+
+---------------------------------------------------
+
+Usando taamanhos de texto 
+
+
+<head>
+		<title>Fontes & Cores </title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+		.texto{
+
+
+			/* font-size: 20px */
+			/*font-size: 200%; */
+			font-size: 1em;
+		}
+
+		.texto2{
+			font-size: 14px;
+		}
+
+		div {
+			font-size: 60px;
+		}
+
+
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div>
+			<p class="texto">Conteúdo 1 </p>
+			<p class="texto2">Conteúdo 2 </p>
+		</div>
+
+	</body>
+
+	-------------------------------------------
+	Estilos de txto usando classe
+
+	<style type="text/css">
+			
+			body{
+				font-size: 49px;
+				font-family: "Times New Roman",
+								times, serif;
+			}
+
+			.negrito{
+				font-weight: 100;
+				/*font-weight: normal;*/	
+			}
+
+			.italico{
+				font-style: italic;
+			}
+
+			.formatacao{
+				/*text-decoration: underline;
+				text-decoration: overline;*/
+				text-decoration: line-through;
+			}
+
+			.texto{
+				font: bold 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+			}
+		</style>
+
+	</head>
+
+	<body>
+		
+		<p class="negrito">
+			Texto Negrito
+		</p>
+
+		<p class="italico">
+			Texto Negrito
+		</p>
+	
+		<p class="formatacao">
+			Formtação de texto
+		</p>
+
+		<p class="texto">
+			Texto
+		</p>
+
+		<p>
+			Padrao
+		</p>
+
+	</body>
+	
+	--------------------------------------------------------------------
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cor e imagem de fundo</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			/*
+			.fundo {
+				background-color: blue;
+			}*/
+
+			h1 {
+				/*background-image: url('imagens/yoshi.png');
+
+				/* repeat-x, repeat-y, no-repeat, repeat */
+				background-repeat: repeat-x;
+
+				/*scrool , fixed*/
+				background-attachment: scroll;
+
+				/* 
+				primeiro valor: left, center, right 
+				segundo valor: top, center, bottom 
+				*/
+				background-position: center center;
+			}
+
+			.fundo{
+				background: blue url('imagens/yoshi.png') repeat-x scroll top ;
+			}
+			
+		</style>
+
+	</head>
+	<body class="fundo">
+
+		<h1>
+			Conteúdo de título 1 <br>
+		</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tortor a orci sodales efficitur ac quis augue. Ut ultricies nec diam in dignissim. Donec suscipit egestas sem.</p>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tortor a orci sodales efficitur ac quis augue. Ut ultricies nec diam in dignissim. Donec suscipit egestas sem.</p>
+		
+
+	</body>
+
+</html>
+
+-------------------------------------
+CSS 	Externo
+
+Criar a pagina do css,
+e para fazer a ligação entre a pagina css e a pagina usa-sse
+<link rel="stylesheet" type="text/css" href="estilo.css">''

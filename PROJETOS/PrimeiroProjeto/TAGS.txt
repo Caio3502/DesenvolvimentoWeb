@@ -1,0 +1,347 @@
+
+Para deixar o texto em negrito
+<strong> Ex: texto </strong>
+
+---------------------------------------------------
+Para definir o tipo do documento
+
+<!doctype>
+
+---------------------------------------------------
+A tag <html>
+
+<html>
+
+é o corpo, é onde vai estar todo o código HTML
+
+----------------------------------------------------------
+A tag <head>
+		
+</head>
+
+é a cabeça do site, onde você pode colocar animações códigos em java script etc....
+-
+-------------------------------------------------------
+
+O corpo do projeto é o 
+<body>	
+	</body>
+
+-------------------------------------------------------
+
+Define a codificação da sua página web
+<meta charset="utf-8">
+
+basicamente define que você usará acentuações
+
+a tag meta é fechada de forma automática
+-------------------------------------------------------
+
+<br> vem do ingês quebrar 
+
+ex:
+Está é uma empresa <br>
+e ela é rica em recursos quimicos
+
+
+-------------------------------------------------------
+<header> quer dizer cabeçalho </header>
+<h1> Sobre a empresa </h1>
+		Essa é uma empresa tal....
+
+		<h2>Título 2</h2>
+		<h3>Título 3</h3>
+		<h4>Titulo 4</h4>
+		<h5>Título 5 </h5>
+		<h6>Titulo 6</h6>
+		
+
+-------------------------------------------------------
+<p> é para criar um paragrafo
+ex:
+
+<h1> Sobre a empresa </h1>
+		<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
+		O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde,
+		 o ano de 1500 quando uma misturou os caracteres de um texto para criar um espécime de livro
+		 </p>
+
+		<p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
+		O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500,
+		quando uma misturou os caracteres de um texto para criar um espécime de livro.</
+		p>
+-------------------------------------------------------
+
+<hr> que é linha horizontal para separar
+
+
+-------------------------------------------------------
+Formatações de texto
+
+<body>
+		
+		Este é um texto em <strong>Negrito</strong><br>
+		Este é um texto em <em>Italico</em><br>
+		Este é um texto em <u>Underline</u><br>
+		Este é um texto em <strike>errado</strike><br>
+
+	</body>
+
+-------------------------------------------------------
+
+Lista não ordenada
+	<body>
+		
+		<h2>CloutStore</h2>
+		<ul type="circle">
+			<li>Home</li>
+			<li>Loja</li>
+			<li>Produtos</li>
+			<li>Quem Somos</li>
+		</ul>
+
+	</body>
+
+	tipos da formatação do menu
+
+	circle 
+	square
+	disc
+	-------------------------------------------------------
+	Para adicionar um comentário
+
+	<!--Comentário -->
+
+	-------------------------------------------------------
+	Lista ordenada 
+
+	<h2>Perguntas</h2>
+		<ol type= "A">
+			<li>Primeira Pergunta</li>
+			<li>Segunda Pergunta</li>
+			<li>Terceira Pergunta</li>
+		</ol>
+
+	tipos de formatação do menu
+
+	1, A, a, I, i 
+
+	-------------------------------------------------------
+	Para adicionar uma imagen 
+
+	<img src="imagens/logo.png" width="200">
+
+	o width é para definir o tamanho da imagen largura
+	height altura da imagen 
+
+	-------------------------------------------------------
+	Para usar Links
+
+	<a href="index.html">
+			Home
+
+
+	-----------------------------------------------------
+	Criação de tabelas
+
+<body>
+
+		<h2>PONTUAÇÃO BOLICHE</h2>
+		<table border="1">
+			<tr>
+				<td>Caio</td>
+				<td>Amanda</td>
+				<td>Herminia</td>
+			</tr>
+
+			<tr>
+				<td>1 ponto</td>
+				<td>4 pontos</td>
+				<td>2 pontos</td>
+
+			</tr>
+
+		</table>	
+	</body>
+
+	PARA USAR UM CABEÇALHO NAS COLUNAS É USADO O <th> </th>
+
+
+------------------------------------------
+Mais coisas sobre tabelas
+
+<body>
+
+		<h2>Pagina principal</h2>
+		<table border="2" width="400">
+			<tr>
+				<th>Caio</th>
+				<th>Amanda</th>
+				<th>Herminia</th>
+			</tr>
+
+			<tr>
+				<td rowspan="2">1 ponto</td>
+				<td colspan="2">4 pontos</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">10 pontos</td>
+			</tr>
+
+		</table>	
+	</body>
+
+	rowspan é para 1 coluna cobrir linhas, quantas quiser
+	e colspan é para 1 linha cobrir mais de uma coluna 
+
+----------------------------------------------
+
+Formularios
+
+<h2>Faça seu loguin antes de tudo!..</h2>
+		<form>
+			Loguin:<br>
+			<input type="text" name="loguin"><br>
+			Senha:<br>
+			<input type="password" name="senha"><br>
+
+			<input type="button" value="Entrar">
+
+
+		</form>
+
+
+----------------------------------------------
+
+Mais Sobre formulários
+
+<h2>Ou cadastre-se</h2>
+
+		<form>
+			Loguin:<br>
+			<input type="text" name="loguin"><br>
+			Sexo:<br><br>
+			<input type="radio" name="sexo" value="M">
+			Masculino<br>
+			<input type="radio" name="sexo" value="F">
+			Feminino<br><br>
+
+			Interesses:<br>
+			<input type="checkbox" name="interesses"> Futebol<br>
+			<input type="checkbox" name="interesses"> Cursos<br>
+			<input type="checkbox" name="interesses"> Moda<br>
+			<input type="checkbox" name="interesses"> Etc....<br>
+
+			Estado:<br><br>
+			<select name="estado">
+				<option value="sp">SP</option>
+				<option value="pr">PR</option>
+				<option value="rs">RS</option>
+				<option value="mg">MG</option>
+			</select><br><br>
+
+			Observações:<br><br>
+			<textarea></textarea><br>
+
+			<input type="submit" value="Cadastrar Agora">
+
+		</form>
+
+
+		Para usar por exemplo validação de sexo masculino e feminino sem o usuario precisar escrever
+		usa-se radio
+
+		Agora se for para faze3r um checkbox, onde o usuario pode marcar mais de uma infromação, é usado o Checkbox
+
+		E para listar algo por exemplo, uma lista de estados, é usado o select, e option, para escolher uma opção como no exemplo acima 
+
+----------------------------------------------------------
+Entidades ou Caracteres especiais
+
+ 	non-breaking space	&nbsp;	&#160;
+<	less than	&lt;	&#60;
+>	greater than	&gt;	&#62;
+&	ampersand	&amp;	&#38;
+"	double quotation mark	&quot;	&#34;
+'	single quotation mark (apostrophe)	&apos;	&#39;
+¢	cent	&cent;	&#162;
+£	pound	&pound;	&#163;
+¥	yen	&yen;	&#165;
+€	euro	&euro;	&#8364;
+©	copyright	&copy;	&#169;
+®	registered trademark	&reg;	&#174;
+
+
+----------------------------------------------------------
+<body background="imagens/fundo.png">
+
+		<table border="0" width="900" align="center">
+			<tr>
+				<td height="89"><img src="imagens/logo.png"></td>
+
+				<td align="right">
+					<a href=""> Home</a>/
+					<a href="quem-somos.html"> Quem Somos</a>/
+					<a href="contato.html"> Contato</a>/
+				</td>
+
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<img src="imagens/capa.png">
+				</td>
+
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<h2>Sobre a Universidade</h2>
+					<p>
+						<strong> Lorem Ipsum </strong>is simply dummy <em>text</em> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+					</p>
+
+					<p>
+						É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui"
+					</p>
+
+				</td>
+
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center"><h4>Todos os Direitos Reservados</h4></td>
+			</tr>
+
+		</table>
+
+
+	</body>
+
+
+	BORDER JUNTO COM TABLE É PARA DEFINIR A BORDA DO SITE, WIDHT É OS PIXEIS, OU O TAMANHO DA TABELA, E ALIGN É PRA CENTRALIZAR
+	HEIGHT é a LARGURA DA TABELA
+
+----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
